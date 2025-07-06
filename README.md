@@ -29,19 +29,27 @@ Proyek ini adalah sebuah **Blog Website berbasis Laravel 9** yang dirancang untu
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/username/laravel-blog.git
+git clone https://github.com/Arifrebe/laravel-blog.git
 cd laravel-blog
 
 # 2. Install dependensi
 composer install
-npm install && npm run dev
 
 # 3. Copy file env dan generate key
 cp .env.example .env
 php artisan key:generate
 
-# 4. Atur database di file .env lalu migrasi
+# 4. Atur database di file .env lalu migrasi & seed
 php artisan migrate --seed
 
-# 5. Jalankan project
+# 5. (Opsional) Buat symbolic link untuk storage
+php artisan storage:link
+
+# 6. Jalankan project
 php artisan serve
+
+```
+
+## 🚧 Status Proyek
+Proyek ini masih dalam tahap pengembangan (Work in Progress) dan terbuka untuk kontribusi siapa pun yang ingin membantu mengembangkan fitur, menyempurnakan tampilan, atau menambah dokumentasi.
+
