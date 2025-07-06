@@ -1,6 +1,6 @@
 # 📝 Laravel Blog Website
 
-Proyek ini adalah sebuah **Blog Website berbasis Laravel 9** yang dirancang untuk menampilkan konten artikel, memungkinkan pengguna membaca artikel berdasarkan kategori dan tag, serta memberikan komentar.
+Proyek ini adalah sebuah **Blog Website berbasis Laravel 9** yang dirancang untuk menampilkan konten artikel, memungkinkan pengguna membaca artikel berdasarkan kategori dan tag.
 
 ---
 
